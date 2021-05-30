@@ -31,5 +31,5 @@ THEN I find a concise, descriptive title
 
 In addition to the acceptance criteria, I ensured to do the following: 
 - On the search engine optimization section, there was no "id", which was causing the link to not work, so I added that 
-- I reorganised the CSS file so all the elements were grouped together, for ease of code readability
+- I used a single class for the 3 main elements and the 3 benefits elements, significantly shortening the CSS code
 - I made this README and published this page to Github as part of the grading criteria

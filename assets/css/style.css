@@ -87,10 +87,10 @@ p {
 }
 
 /*Styles the main section. I moved this portion of the code to this section to make it easier to follow*/
-/*I rearranged it so the elements of each section are grouped together*/
+/*Since I used one class for the 3 main sections, it made it easier to style them all with a few selectors*/
 
-/*SEARCH ENGINE OPTIMIZATION*/
-.search-engine-optimization {
+/*MAIN SECTION BOXES*/
+.main-section-boxes {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -98,49 +98,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img {
+.main-section-boxes img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*ONLINE REPUTATION MANAGEMENT*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*SOCIAL MEDIA MARKETING*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.social-media-marketing h2 {
+.main-section-boxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -158,53 +120,18 @@ p {
     background-color: #2589bd;
 }
 
-/*Styles the righthand portions. I rearranged it so that lead / brand / cost are grouped together, for ease of code readability*/
-/*LEAD GENERATION*/
-.benefit-lead {
+/*Styles the righthand portions. I rearranged it so that they were just one class*/
+.benefits-boxes {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefits-boxes h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*BRAND AWARENESS*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*COST MANAGEMENT*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
+.benefits-boxes img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
